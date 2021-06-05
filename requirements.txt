@@ -1,0 +1,8 @@
+natasha
+laserembeddings
+sklearn
+transformers
+torch
+numpy
+tqdm
+argparse
