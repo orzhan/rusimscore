@@ -144,7 +144,7 @@ if __name__ == "__main__":
     elif args.input_file is not None:
         result = []
         with open(args.input_file, 'r') as f:
-            for i, line in tqdm(f):
+            for line in tqdm(f):
                 result.append(simplify(line, args.control))
         if args.output_file is not None:
             with open(args.output_file, 'w') as fout:
